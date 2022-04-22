@@ -1,0 +1,15 @@
+{
+    "exclude": ["node_modules"],
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@views/*": ["./src/views/*"],
+            "@components/*": ["./src/components/*"],
+            "@assets/*": ["./src/assets/*"],
+            "@utils/*": ["./src/utils/*"],
+            "@hooks/*": ["src/context/*"],
+            "@context/*": ["./src/context/*"],
+            "@http/*": ["src/http/*"]
+        }
+    }
+}
